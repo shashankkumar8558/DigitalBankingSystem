@@ -1,5 +1,12 @@
 package io.github.shashankkumar8558.dto;
 
+import java.math.BigDecimal;
+
+import io.github.shashankkumar8558.entity.AccountType;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Positive;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 import lombok.Data;
