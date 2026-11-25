@@ -1,8 +1,8 @@
-package io.github.shashankkumar8558.dto;
+package io.github.shashankkumar8558.accountservice.dto;
 
 import java.math.BigDecimal;
 
-import io.github.shashankkumar8558.entity.AccountType;
+import io.github.shashankkumar8558.accountservice.entity.AccountType;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

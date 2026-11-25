@@ -1,12 +1,13 @@
-package io.github.shashankkumar8558.dto;
-
-import io.github.shashankkumar8558.entity.AccountStatus;
-import io.github.shashankkumar8558.entity.AccountType;
+package io.github.shashankkumar8558.accountservice.dto;
 
 import java.time.LocalDateTime;
+
+import io.github.shashankkumar8558.accountservice.entity.AccountStatus;
+import io.github.shashankkumar8558.accountservice.entity.AccountType;
+
 import java.math.BigDecimal;
 
-public class accountResponse {
+public class AccountResponse {
 
   private String id;
 

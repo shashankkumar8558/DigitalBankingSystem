@@ -1,4 +1,4 @@
-package io.github.shashankkumar8558.entity;
+package io.github.shashankkumar8558.accountservice.entity;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
