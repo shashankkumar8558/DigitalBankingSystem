@@ -15,7 +15,7 @@ import lombok.Data;
 @NoArgsConstructor
 @AllArgsConstructor
 
-public class createAccountRequest {
+public class CreateAccountRequest {
 
   @NotBlank(message = "Account holder name is required")
   private String accountHolderName;

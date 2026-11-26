@@ -40,3 +40,15 @@ I got to know very soon while i was building this project because i had to make 
    jakarta -->
    hibernate -->
    validation -->
+
+4. ResponseEntity<T> --> this is a class of a Spring that gives full control on Http response so whenever we return from controller we can return status, header and body
+
+status --> http status code
+
+header --> content-type, location, custom header etc..
+
+body --> The actual response of payload (Your DTO, String, etc..)
+
+----> why not just return the object directly ??!! because spring always set the status code as 201 ok, and ResponseEntity give us the flexibility to return whatever we want as a status code, header and body.
+
+5.
