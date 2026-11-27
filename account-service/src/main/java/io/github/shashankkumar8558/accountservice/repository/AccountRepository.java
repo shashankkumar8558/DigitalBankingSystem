@@ -6,4 +6,5 @@ import io.github.shashankkumar8558.accountservice.entity.Account;
 
 public interface AccountRepository extends JpaRepository<Account, String> {
 
+  boolean isAccountExist(String email);
 }

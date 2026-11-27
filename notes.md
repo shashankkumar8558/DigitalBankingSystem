@@ -51,4 +51,6 @@ body --> The actual response of payload (Your DTO, String, etc..)
 
 ----> why not just return the object directly ??!! because spring always set the status code as 201 ok, and ResponseEntity give us the flexibility to return whatever we want as a status code, header and body.
 
-5.
+5. let's use builder pattern for ResponseEnitity which is just chainanle alternative of the constructor each method returns a BodyBuilder or (HeaderBuilder) so we can chain calls.
+
+6.
